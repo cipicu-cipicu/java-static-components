@@ -119,6 +119,11 @@ Check-in the code (get used to check-in code that works)
 ##### Step 7. Link the UI change events to the model
 
 Theory: textArea.getDocument().addDocumentListener(...)  
+
+See this first:  
+[https://docs.oracle.com/javase%2Ftutorial%2Fuiswing%2F%2F/events/documentlistener.html](https://docs.oracle.com/javase%2Ftutorial%2Fuiswing%2F%2F/events/documentlistener.html)
+
+Then this:  
 [javax.swing.event.DocumentListener](https://docs.oracle.com/javase%2F8%2Fdocs%2Fapi%2F%2F/javax/swing/event/DocumentListener.html)
 
 Create a class called `MainTextListener` in the package `??` (what do you think the package should be?)  
